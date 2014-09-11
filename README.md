@@ -49,12 +49,12 @@ servicios económicos y laborales. También les permite buscar anuncios de su inte
 
 ## Calendario de iteraciones.
 
-**Iteración 1. Septiembre 5 a Septiembre 19 (Actual).**
-Iteración 2. Septiembre 20 a Octubre 3.
-Iteración 3. Octubre 4 a Octubre 17.
-Iteración 4. Octubre 18 a Octubre 31.
-Iteración 5. Noviembre 1 a Noviembre 14.
-Iteración 6. Noviembre 15 a Noviembre 28.
+* **Iteración 1. Septiembre 5 a Septiembre 19 (Actual).**
+* Iteración 2. Septiembre 20 a Octubre 3.
+* Iteración 3. Octubre 4 a Octubre 17.
+* Iteración 4. Octubre 18 a Octubre 31.
+* Iteración 5. Noviembre 1 a Noviembre 14.
+* Iteración 6. Noviembre 15 a Noviembre 28.
 
 # Licencia 
 
