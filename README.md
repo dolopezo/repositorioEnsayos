@@ -3,9 +3,9 @@
 Repositorio del proyecto web del portal de anuncios clasificados para
 estudiantes de la [Universidad Nacional de Colombia](http://unal.edu.co), realizado durante la materia Ingeniería de Software II.
 
-## ITERACIÓN.
+## Iteración actual.
 
-Iteración 1. Septiembre 5 a Septiembre 19.
+**Iteración 1. Septiembre 5 a Septiembre 19**
 
 ## Descripción
 
@@ -28,7 +28,7 @@ servicios económicos y laborales. También les permite buscar anuncios de su inte
 
 * Jairo Aponte
 
-## Monitores
+### Monitores
 
 * David Delgado
 * Alejandro Velasco
@@ -47,8 +47,17 @@ servicios económicos y laborales. También les permite buscar anuncios de su inte
 * [Trello](https://trello.com/anuncialo)
 * SEMAT
 
-# Licensia 
+## Calendario de iteraciones.
 
-anUNcialo está licenciaso bajo [MIT license](http://opensource.org/licenses/mit-license.html).
+**Iteración 1. Septiembre 5 a Septiembre 19 (Actual).**
+Iteración 2. Septiembre 20 a Octubre 3.
+Iteración 3. Octubre 4 a Octubre 17.
+Iteración 4. Octubre 18 a Octubre 31.
+Iteración 5. Noviembre 1 a Noviembre 14.
+Iteración 6. Noviembre 15 a Noviembre 28.
+
+# Licencia 
+
+**anUNcialo** está licenciado bajo [MIT license](http://opensource.org/licenses/mit-license.html).
 
 
