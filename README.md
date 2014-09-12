@@ -1,28 +1,28 @@
 # anUNcialo
 
 Repositorio del proyecto web del portal de anuncios clasificados para
-estudiantes de la [Universidad Nacional de Colombia](http://unal.edu.co), realizado durante la materia Ingeniería de Software II.
+estudiantes de la [Universidad Nacional de Colombia](http://unal.edu.co), realizado durante la materia IngenierÃ­a de Software II.
 
-## Iteración actual.
+## IteraciÃ³n actual.
 
-**Iteración 1. Septiembre 5 a Septiembre 19**
+**IteraciÃ³n 1. Septiembre 5 a Septiembre 19**
 
-## Descripción
+## DescripciÃ³n
 
 anUNcialo es un portal web que le permite a los estudiantes de la Universidad
-publicar anuncios de compra y/o venta de productos, así como ofertar
-servicios económicos y laborales. También les permite buscar anuncios de su interés.
+publicar anuncios de compra y/o venta de productos, asÃ­ como ofertar
+servicios econÃ³micos y laborales. TambiÃ©n les permite buscar anuncios de su interÃ©s.
 
 ## Equipo
 
 ### Desarrolladores
 
-* Andrés Felipe Acevedo Monroy
+* AndrÃ©s Felipe Acevedo Monroy
 * Richar Orlando Contreras Caro
 * Daniel Wilfredo Aranda Estrada
-* Marcio Abreu
+* Marcio Alexander Abreu Cano
 * Santiago Acosta Franky
-* Daniel Orlando López Ochoa
+* Daniel Orlando LÃ³pez Ochoa
 
 ### Docente
 
@@ -42,22 +42,22 @@ servicios económicos y laborales. También les permite buscar anuncios de su inte
 * HTML
 * CSS
 
-## Administración de las iteraciones
+## AdministraciÃ³n de las iteraciones
 
 * [Trello](https://trello.com/anuncialo)
 * SEMAT
 
 ## Calendario de iteraciones.
 
-* **Iteración 1. Septiembre 5 a Septiembre 19 (Actual).**
-* Iteración 2. Septiembre 20 a Octubre 3.
-* Iteración 3. Octubre 4 a Octubre 17.
-* Iteración 4. Octubre 18 a Octubre 31.
-* Iteración 5. Noviembre 1 a Noviembre 14.
-* Iteración 6. Noviembre 15 a Noviembre 28.
+* **IteraciÃ³n 1. Septiembre 5 a Septiembre 19 (Actual).**
+* IteraciÃ³n 2. Septiembre 20 a Octubre 3.
+* IteraciÃ³n 3. Octubre 4 a Octubre 17.
+* IteraciÃ³n 4. Octubre 18 a Octubre 31.
+* IteraciÃ³n 5. Noviembre 1 a Noviembre 14.
+* IteraciÃ³n 6. Noviembre 15 a Noviembre 28.
 
 # Licencia 
 
-**anUNcialo** está licenciado bajo [MIT license](http://opensource.org/licenses/mit-license.html).
+**anUNcialo** estÃ¡ licenciado bajo [MIT license](http://opensource.org/licenses/mit-license.html).
 
 
