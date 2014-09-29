@@ -5,10 +5,10 @@ import java.util.Date
 class Announcement {
 	
 	private Long id
-	private String content
-	private String title
-	private User owner
-	private Date dateTime
+	private String content;
+	private String title;
+	private User owner;
+	private Date dateTime;
 	
 	def constraints = {
 		content(blank:false)
