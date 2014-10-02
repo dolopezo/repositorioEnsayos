@@ -2,9 +2,10 @@ package anUNcialo
 
 import java.util.Date
 
+
 class Announcement {
 	
-	private Long id
+	private Long id;
 	private String content;
 	private String title;
 	private User owner;
