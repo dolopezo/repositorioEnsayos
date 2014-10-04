@@ -1,4 +1,4 @@
-package anUNcialo
+package anuncialo;
 
 import java.util.Date
 
@@ -12,6 +12,7 @@ class Announcement {
 	private Date dateTime;
 	
 	def constraints = {
+		id(unique:true)
 		content(blank:false)
 		title(blank:false)
 		owner(blank:false)

@@ -1,6 +1,6 @@
-package anUNcialo
+package anuncialo
 
-class User {
+abstract class User {
 	private Long id;
 	private String email;
 	private String username;
@@ -8,12 +8,12 @@ class User {
 	private String name;
 	private String publishedAnnouncements;
 
-
 	String toString(){
 		return "$username";
 	}
 	
 	def constraints = {
+		id(unique:true)
 		email(blank:false, email:true, unique:true)
 		password(blank:false, password:true)
 		username(blank:false, unique:true)
