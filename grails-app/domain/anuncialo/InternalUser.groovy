@@ -7,7 +7,7 @@ class InternalUser extends User {
 	private float buyerRank;
 	private float sellerRank;
 
-    def constraints = {
+    static constraints = {
 		id(unique:true)
 		buyerRank(range:0..5, scale:1)
 		sellerRank(range:0..5, scale:1)

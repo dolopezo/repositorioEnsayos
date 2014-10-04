@@ -12,13 +12,6 @@ abstract class User {
 		return "$username";
 	}
 	
-	def constraints = {
-		id(unique:true)
-		email(blank:false, email:true, unique:true)
-		password(blank:false, password:true)
-		username(blank:false, unique:true)
-	}
-	
 	public Long getId() {
 		return id;
 	}

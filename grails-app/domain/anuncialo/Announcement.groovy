@@ -3,7 +3,7 @@ package anuncialo;
 import java.util.Date
 
 
-class Announcement {
+abstract class Announcement {
 	
 	private Long id;
 	private String content;
@@ -11,13 +11,6 @@ class Announcement {
 	private User owner;
 	private Date dateTime;
 	
-	def constraints = {
-		id(unique:true)
-		content(blank:false)
-		title(blank:false)
-		owner(blank:false)
-		dateTime(blank:false)
-	}
 	
 	public Long getId() {
 		return id;

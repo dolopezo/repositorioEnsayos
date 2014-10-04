@@ -11,8 +11,12 @@ class HomeAnnouncement extends Announcement {
 	private boolean isForRent;
 	private boolean isForSale;
 	
-	def constraints = {
+	static constraints = {
 		id(unique:true)
+		content(blank:false)
+		title(blank:false)
+		owner(blank:false)
+		dateTime(blank:false)
     }
 
 	public Long getId() {

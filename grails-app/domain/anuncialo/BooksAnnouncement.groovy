@@ -12,8 +12,12 @@ class BooksAnnouncement extends Announcement {
 	private Date datePublication;
 	private float bookPrice;
 	
-    def constraints = {
+    static constraints = {
 		id(unique:true)
+		content(blank:false)
+		title(blank:false)
+		owner(blank:false)
+		dateTime(blank:false)
     }
 
 	public String getBookName() {

@@ -9,8 +9,12 @@ class JobAnnouncement extends Announcement {
 	private String jobDescription;
 	private float salary;
 	
-    def constraints = {
+    static constraints = {
 		id(unique:true)
+		content(blank:false)
+		title(blank:false)
+		owner(blank:false)
+		dateTime(blank:false)
     }
 
 	public Long getId() {

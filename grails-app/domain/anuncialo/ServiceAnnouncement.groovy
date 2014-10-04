@@ -8,8 +8,12 @@ class ServiceAnnouncement extends Announcement {
 	private float rate;
 	private String serviceDescription;
 	
-    def constraints = {
+    static constraints = {
 		id(unique:true)
+		content(blank:false)
+		title(blank:false)
+		owner(blank:false)
+		dateTime(blank:false)
     }
 
 	public Long getId() {

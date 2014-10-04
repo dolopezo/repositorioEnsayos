@@ -11,9 +11,10 @@ class Transaction {
 	private float ratingSeller;
 	private Date transactionDate;
 	
-    def constraints = {
+    static constraints = {
 		transactionId(unique:true)
     }
+	
 
 	public Long getTransactionId() {
 		return transactionId;

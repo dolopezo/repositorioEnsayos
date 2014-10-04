@@ -7,7 +7,7 @@ class ExternalUser extends User {
 	private boolean isLessor;
 	private float rank;
 	
-    def constraints = {
+    static constraints = {
 		id(unique:true)
 		rank(range:0..5, scale:1)
     }
