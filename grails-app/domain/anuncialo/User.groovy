@@ -6,7 +6,7 @@ abstract class User {
 	private String username;
 	private String password;
 	private String name;
-	private String publishedAnnouncements;
+	private int publishedAnnouncements;
 
 	String toString(){
 		return "$username";
@@ -52,11 +52,11 @@ abstract class User {
 		this.name = name;
 	}
 
-	public String getPublishedAnnouncements() {
+	public int getPublishedAnnouncements() {
 		return publishedAnnouncements;
 	}
 
-	public void setPublishedAnnouncements(String publishedAnnouncements) {
+	public void setPublishedAnnouncements(int publishedAnnouncements) {
 		this.publishedAnnouncements = publishedAnnouncements;
 	}
 
