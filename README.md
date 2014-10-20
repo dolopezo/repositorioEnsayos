@@ -5,7 +5,7 @@ estudiantes de la [Universidad Nacional de Colombia](http://unal.edu.co), realiz
 
 ## Iteración actual.
 
-**Iteración 2. Septiembre 20 a Octubre 3.**
+**Iteración 3. Octubre 4 a Octubre 17**
 
 ## Descripción
 
@@ -49,9 +49,9 @@ servicios económicos y laborales. También les permite buscar anuncios de su in
 
 ## Calendario de iteraciones.
 
-* Iteración 1. Septiembre 5 a Septiembre 19.**
-* **Iteración 2. Septiembre 20 a Octubre 3 (Actual).**
-* Iteración 3. Octubre 4 a Octubre 17.
+* Iteración 1. Septiembre 5 a Septiembre 19.
+* Iteración 2. Septiembre 20 a Octubre 3.
+* **Iteración 3. Octubre 4 a Octubre 17 (Actual)**.
 * Iteración 4. Octubre 18 a Octubre 31.
 * Iteración 5. Noviembre 1 a Noviembre 14.
 * Iteración 6. Noviembre 15 a Noviembre 28.
