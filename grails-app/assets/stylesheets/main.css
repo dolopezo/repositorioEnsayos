@@ -48,7 +48,7 @@ body {
 }
 
 #grailsLogo {
-	background-color: #abbf78;
+	background-color: #ffffff;
 }
 
 /* replace with .no-boxshadow body if you have modernizr available */
@@ -107,19 +107,25 @@ img {
 	border: none;
 }
 
-.footer {
-	background: #abbf78;
-	color: #000;
-	clear: both;
-	font-size: 0.8em;
-	margin-top: 1.5em;
-	padding: 1em;
-	min-height: 1em;
-}
+#footermainPan {height:40px;background:#424242;color:#424242;font:13px/20px "Trebuchet MS",Arial,Helvetica,sans-serif;clear:both;padding:10px 0 0}
+#footerPan {width:500px;position:relative;padding:0 0 0 15px}
+#footerPan ul {width:935px;height:50px;position:relative;margin:0 auto}
+#footerPan ul a {padding:0 0px 0;color:#FFFFFF;text-decoration:none;font-size:18px}
+#footerPan ul p {padding:0px 0 50px;color:#000000;text-decoration:none;font-size:12px; float: right;}
+#footerPan ul a:hover {text-decoration:underline}
 
-.footer a {
-	color: #255b17;
-}
+
+.wrapper {width:100%;overflow:hidden}
+/* header */
+header {width:100%;height:0px}
+#top_nav {float:right;padding:50px 70px 0 0}
+#top_nav li {float:left;padding-left:5px;list-style:none}
+#top_nav a {display:block;background:url(../images/top_nav_bg.gif) no-repeat;width:79px;font-size:15px;line-height:29px;color:#323232;text-align:center;text-decoration:none}
+#top_nav a:hover {color:#fff;background:#323232}
+
+
+
+
 
 .spinner {
 	background: url(../images/spinner.gif) 50% 50% no-repeat transparent;
@@ -130,76 +136,6 @@ img {
     right: 0;
 	top: 0;
 	text-indent: -9999px;
-}
-
-/* NAVIGATION MENU */
-
-.nav {
-	background-color: #efefef;
-	padding: 0.5em 0.75em;
-	   -moz-box-shadow: 0 0 3px 1px #aaaaaa;
-	-webkit-box-shadow: 0 0 3px 1px #aaaaaa;
-	        box-shadow: 0 0 3px 1px #aaaaaa;
-	zoom: 1;
-}
-
-.nav ul {
-	overflow: hidden;
-	padding-left: 0;
-	zoom: 1;
-}
-
-.nav li {
-	display: block;
-	float: left;
-	list-style-type: none;
-	margin-right: 0.5em;
-	padding: 0;
-}
-
-.nav a {
-	color: #666666;
-	display: block;
-	padding: 0.25em 0.7em;
-	text-decoration: none;
-	   -moz-border-radius: 0.3em;
-	-webkit-border-radius: 0.3em;
-	        border-radius: 0.3em;
-}
-
-.nav a:active, .nav a:visited {
-	color: #666666;
-}
-
-.nav a:focus, .nav a:hover {
-	background-color: #999999;
-	color: #ffffff;
-	outline: none;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
-}
-
-.no-borderradius .nav a:focus, .no-borderradius .nav a:hover {
-	background-color: transparent;
-	color: #444444;
-	text-decoration: underline;
-}
-
-.nav a.home, .nav a.list, .nav a.create {
-	background-position: 0.7em center;
-	background-repeat: no-repeat;
-	text-indent: 25px;
-}
-
-.nav a.home {
-	background-image: url(../images/skin/house.png);
-}
-
-.nav a.list {
-	background-image: url(../images/skin/database_table.png);
-}
-
-.nav a.create {
-	background-image: url(../images/skin/database_add.png);
 }
 
 /* CREATE/EDIT FORMS AND SHOW PAGES */

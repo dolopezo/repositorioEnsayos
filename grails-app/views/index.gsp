@@ -1,122 +1,94 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta name="layout" content="main"/>
-		<title>Welcome to Grails</title>
-		<style type="text/css" media="screen">
-			#status {
-				background-color: #eee;
-				border: .2em solid #fff;
-				margin: 2em 2em 1em;
-				padding: 1em;
-				width: 12em;
-				float: left;
-				-moz-box-shadow: 0px 0px 1.25em #ccc;
-				-webkit-box-shadow: 0px 0px 1.25em #ccc;
-				box-shadow: 0px 0px 1.25em #ccc;
-				-moz-border-radius: 0.6em;
-				-webkit-border-radius: 0.6em;
-				border-radius: 0.6em;
-			}
 
-			.ie6 #status {
-				display: inline; /* float double margin fix http://www.positioniseverything.net/explorer/doubled-margin.html */
-			}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html >
+<head>
+<meta name="layout" content="main"/>
+<title>anUNcialo</title>
+<link rel="stylesheet" href="${resource(dir: 'css', file: 'style.css')}" type="text/css">
+</head>
+<body>
 
-			#status ul {
-				font-size: 0.9em;
-				list-style-type: none;
-				margin-bottom: 0.6em;
-				padding: 0;
-			}
 
-			#status li {
-				line-height: 1.3;
-			}
-
-			#status h1 {
-				text-transform: uppercase;
-				font-size: 1.1em;
-				margin: 0 0 0.3em;
-			}
-
-			#page-body {
-				margin: 2em 1em 1.25em 18em;
-			}
-
-			h2 {
-				margin-top: 1em;
-				margin-bottom: 0.3em;
-				font-size: 1em;
-			}
-
-			p {
-				line-height: 1.5;
-				margin: 0.25em 0;
-			}
-
-			#controller-list ul {
-				list-style-position: inside;
-			}
-
-			#controller-list li {
-				line-height: 1.3;
-				list-style-position: inside;
-				margin: 0.25em 0;
-			}
-
-			@media screen and (max-width: 480px) {
-				#status {
-					display: none;
-				}
-
-				#page-body {
-					margin: 0 1em 1em;
-				}
-
-				#page-body h1 {
-					margin-top: 0;
-				}
-			}
-		</style>
-	</head>
-	<body>
-		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-		<div id="status" role="complementary">
-			<h1>Application Status</h1>
-			<ul>
-				<li>App version: <g:meta name="app.version"/></li>
-				<li>Grails version: <g:meta name="app.grails.version"/></li>
-				<li>Groovy version: ${GroovySystem.getVersion()}</li>
-				<li>JVM version: ${System.getProperty('java.version')}</li>
-				<li>Reloading active: ${grails.util.Environment.reloadingAgentEnabled}</li>
-				<li>Controllers: ${grailsApplication.controllerClasses.size()}</li>
-				<li>Domains: ${grailsApplication.domainClasses.size()}</li>
-				<li>Services: ${grailsApplication.serviceClasses.size()}</li>
-				<li>Tag Libraries: ${grailsApplication.tagLibClasses.size()}</li>
-			</ul>
-			<h1>Installed Plugins</h1>
-			<ul>
-				<g:each var="plugin" in="${applicationContext.getBean('pluginManager').allPlugins}">
-					<li>${plugin.name} - ${plugin.version}</li>
-				</g:each>
-			</ul>
+		
+<!-- main -->
+<div id="main">
+<!-- Left side bar -->
+	<div id="LTsidebar">
+<!-- Quick Search -->
+			<div id="quicksearch">
+				<div id="quickheadRT" class="boxheadRT"><h1>Quick search</h1></div>
+				<div class="boxheadLT"></div>
+					<div class="boxmain">
+						<div class="boxmainRT" style="width:144px">
+							<p class="label">search for:</p>
+							<input name="search" type="text" size="12" />
+							<span style=" float:left;margin:10px 37px 0"><a href="#"><img src="images/btn_search.jpg" width="62" height="21" alt="" /></a></span>
+							<p><a href="#" class="comlink">Advanced search</a></p>
+						</div>
+					 	<div class="boxmainLT"></div>
+					</div>
+				<div class="boxbottRT"></div>
+				<div id="quickbottLT" class="boxbottLT"></div>
+			</div>
+			<div class="clear"></div>
+<!-- Categories --><div class="inner_copy"></div>
+			<div id="categories">
+				<div id="categorieheadRT" class="boxheadRT"><h1>Categories</h1></div>
+		 		<div class="boxheadLT"></div>
+					<div class="boxmain">
+						<div class="boxmainRT" style="width: 144px;">
+							<ul>
+											<li><a href="#">Category 1</a></li>
+											<li><a href="#">Category 1</a></li>
+											<li><a href="#">Category 1</a></li>
+											<li><a href="#">Category 1</a></li>
+											<li><a href="#">Category 1</a></li>
+											<li><a href="#">Category 1</a></li>
+											<li><a href="#">Category 1</a></li>
+											<li><a href="#">Category 1</a></li>
+											<li><a href="#">Category 1</a></li>
+											<li><a href="#">Category 1</a></li>
+											<li><a href="#">Category 1</a></li>
+											<li><a href="#">Category 1</a></li>
+											<li><a href="#">Category 1</a></li>
+											<li><a href="#">Category 1</a></li>
+											<li><a href="#">Category 1</a></li>
+											<li><a href="#">Category 1</a></li>
+											<li><a href="#">Category 1</a></li>
+											<li><a href="#">Category 1</a></li>
+											<li><a href="#">Category 1</a></li>
+									</ul>
+								</div>
+					 		<div class="boxmainLT"></div>
+						</div>
+						<div class="boxbottRT"></div>
+						<div id="categoriebottLT" class="boxbottLT"></div>
+				</div>
 		</div>
-		<div id="page-body" role="main">
-			<h1>Welcome to Grails</h1>
-			<p>Congratulations, you have successfully started your first Grails application! At the moment
-			   this is the default page, feel free to modify it to either redirect to a controller or display whatever
-			   content you may choose. Below is a list of controllers that are currently deployed in this application,
-			   click on each to execute its default action:</p>
-
-			<div id="controller-list" role="navigation">
-				<h2>Available Controllers:</h2>
+		
+		
+		<div id="RTsidebar">	
+	
+			<div id="navbar">
 				<ul>
-					<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-						<li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
-					</g:each>
+					<li><a href="#">Menu 1</a></li><li><span></span></li>
+					<li><a href="#">Menu 2</a></li><li><span></span></li>
+					<li><a href="#">Menu 3</a></li><li><span></span></li>
+					<li><a href="#" class="divider">Menu 4</a></li>
 				</ul>
 			</div>
-		</div>
-	</body>
+		 	
+			<legend>New announcements</legend><div id="products">
+				<div id="pro"><h2>Announcement 1</h2><img src="#" width="187" height="134" alt="" /><p>$1</p><a href="#" id="buyit"></a></div><div id="bigdivider"></div>
+				<div id="pro"><h2>Announcement 2</h2><img src="#" width="188" height="134" alt="" /><p>$2</p><a href="#" id="buyit"></a></div><div id="bigdivider"></div>
+				<div id="pro"><h2>Announcement 3</h2><img src="#" width="170" height="134" alt="" /><p>$1</p><a href="#" id="buyit"></a></div><div id="productdivider"></div>
+				<div id="pro"><h2>Announcement 4</h2><img src="#" width="187" height="134" alt="" /><p>$1</p><a href="#" id="buyit"></a></div><div id="bigdivider"></div>
+				<div id="pro"><h2>Announcement 5</h2><img src="#" width="188" height="134" alt="" /><p>$2</p><a href="#" id="buyit"></a></div><div id="bigdivider"></div>
+				<div id="pro"><h2>Announcement 6</h2><img src="#" width="170" height="134" alt="" /><p>$1</p><a href="#" id="buyit"></a></div>
+			</div>
+	
+</div>
+	</div>
+</div>
+</body>
 </html>

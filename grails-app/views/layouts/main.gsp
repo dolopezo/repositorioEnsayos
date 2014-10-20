@@ -8,18 +8,43 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title><g:layoutTitle default="anUNcialo"/></title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="shortcut icon" href="${assetPath(src: 'favicon.ico')}" type="image/x-icon">
-		<link rel="apple-touch-icon" href="${assetPath(src: 'apple-touch-icon.png')}">
-		<link rel="apple-touch-icon" sizes="114x114" href="${assetPath(src: 'apple-touch-icon-retina.png')}">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
   		<asset:stylesheet src="application.css"/>
-		<asset:javascript src="application.js"/>
 		<g:layoutHead/>
 	</head>
 	<body>
-		<div id="grailsLogo" role="banner"><a href="http://grails.org"><asset:image src="grails_logo.png" alt="Grails"/></a></div>
+
+<body>
+<!-- header -->
+		<header>		
+							<ul id="top_nav">
+								<li><a href="http://localhost:8080/anUNcialo/user/login">Log in</a></li>
+								<li><a href="#">Register</a></li>									
+							</ul>	
+		</header>
+<!-- / header -->
+
+	
+				
+		<div id="grailsLogo" role="banner"><a href="http://grails.org"><asset:image src="anuncialo_logo.png
+" alt="anUNcialo"/></a></div>
 		<g:layoutBody/>
-		<div class="footer" role="contentinfo"></div>
-		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
-	</body>
+		
+		
+		
+<div id="footermainPan">
+	<div id="footerPan">
+		<ul>
+			<a href="#">Home</a>|
+			<a href="#">About Us</a>|
+			<a href="#">Contact</a>
+			<p>© 2014, anUNcialo - Developed by anUNcialo team</p>
+		</ul><div class="fclear"></div>		
+
+	</div>
+</div>
+
+
+
+</body>
 </html>
