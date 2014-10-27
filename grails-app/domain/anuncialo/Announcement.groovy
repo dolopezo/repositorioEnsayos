@@ -3,7 +3,7 @@ package anuncialo;
 import java.util.Date
 
 
-abstract class Announcement {
+class Announcement {
 	
 	private Long id;
 	private String content;

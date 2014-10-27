@@ -1,6 +1,6 @@
 package anuncialo
 
-abstract class User {
+ class User {
 	private Long id;
 	private String email;
 	private String username;
